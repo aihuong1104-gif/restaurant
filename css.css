@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* CSS Document */
+div#bdiv{
+	background-color:#FFF;
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	border-bottom:1px solid #999;
+	padding-top:20px;
+	padding-bottom:10px;
+	display:flex;
+	text-content:space-between;
+}
+.hd1{
+	
+	display:flex;
+	text-content:space-between;
+	border:#000;
+	width:30%;
+}
+
+.h1 {
+	width:168px;
+	height:118px;
+}
+.h2{
+	width:300px;
+	height:350px;
+}
+.h3{
+	width:300px;
+	height:350px;
+}
+.h4{
+	width:300px;
+	height:350px;
+}
+.jpfood{
+	
+	font-size:24px;
+	padding-top:10px;
+}
+.hd2 {
+	border-left: 3px solid #F00;
+	width: 70%;
+	padding-top:25px;
+}
+.hd2 ul {
+	padding-left:40px;}		
+
+.hd2 ul li {
+	display: inline;
+}
+.hd2 ul li a{
+	font-family:Oswald;
+	font-size:26px;
+	margin:10px;
+	font-weight: bold;
+	text-decoration:none;
+	color:#000;
+}
+.hd2 a:hover {
+	color:#F00;
+}
+.all{
+	padding: 2%;
+  text-align: center;
+	border-bottom:1px solid #666;
+	padding:20px;
+}
+
+.ig12{
+	padding:10px;
+	display:flex;
+	text-content:space-between;
+}
+.pg1{
+	height:210px;
+	background-color:#666;
+	padding:10px;
+	width:45%;
+	display:flex;
+	text-content:space-between;
+}
+.pg2{
+	height:210px;
+	background-color:#455073;
+	padding:10px;
+	width:45%;
+	display:flex;
+	text-content:space-between;
+	margin-left:20px;
+}
+.p1{
+	font-size:24px;
+	color:#C90;
+}
+.p2{
+	font-size:24px;
+	color:#fff;
+}
+.h5{
+	width:50%;
+	height:200px;
+}
+.h6{
+	width:70%;
+	height:200px;
+}
+.ft{
+	background-color:#333;
+	margin-top:20px;
+	display:flex;
+	text-content:space-between;
+}
+.f1{
+	text-align:right;
+	padding:20px;
+	width:40%;
+}
+.f2{
+	text-align:left;
+	font-size:24px;
+	color:#FFF;
+	width:60%;
+}
+.h7 {
+	width:200px;
+	height:200px;
+}
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  80% {margin-left: -1456px;}
+}
+.mon1, .mon3, .mon4, .mon5{
+	padding:10px;
+	display:flex;
+	text-content:space-between;
+}
+.sushi2{
+	font-size:18px;
+	text-align:left;
+	padding:20px;
+	color:#333;}
+.mon2 {
+	padding:10px;
+	display:flex;
+	text-content:space-between;
+}
+.udon1{
+	font-size:18px;
+	text-align:left;
+	padding:20px;
+	color:#333;}
+.tofu2 {
+	font-size:18px;
+	text-align:left;
+	padding:20px;
+	color:#333;
+}
+.tempura1{
+	font-size:18px;
+	text-align:left;
+	padding:20px;
+	color:#333;
+}
+.ramen2{
+	font-size:18px;
+	text-align:left;
+	padding:20px;
+	color:#333;
+}
+.drink1, .drink2, .drink3
+{
+	text-align:left;
+}
+.nh1, .nh2, .nh3{
+	text-align: left;
+}
